@@ -19,7 +19,7 @@ end
 def sum_to_n? arr, n
   map = {}
 
-  if arr.length() == 0 or arr.length() == 1
+  if arr.length() < 2
     return false
   else
     # Search map for pair value for every element in array
